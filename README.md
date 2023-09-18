@@ -129,8 +129,8 @@ This is a Task Management System application. It provides the functionality to r
               "completed":"false"
           }
           ```
+![assign](https://github.com/sanjanyadav420/Task-Management-System-/assets/101393474/60c44246-56c2-48b7-af6c-0a13691fdc72)
 
-          <img src="https://github.com/sanjanyadav420/Task-Management-System-/blob/main/photos/assign.png"/>
           
     - Update an existing task:
         - Request: PUT /api/tasks/{token}
@@ -146,7 +146,8 @@ This is a Task Management System application. It provides the functionality to r
           }
           ```
 
-          "https://github.com/sanjanyadav420/Task-Management-System-/blob/main/photos/assign.png"/>
+        ![createtask](https://github.com/sanjanyadav420/Task-Management-System-/assets/101393474/1d9e8f22-52f8-4808-8d1b-22436e61f72a)
+
 
           
     - Assign a task to another user:
@@ -155,7 +156,8 @@ This is a Task Management System application. It provides the functionality to r
           http://localhost:8080/api/tasks/${token}/${taskId}/${userId}
           ```
 
-          <img src="https://github.com/sanjanyadav420/Task-Management-System-/blob/main/photos/assign.png"/>
+         ![createtask](https://github.com/sanjanyadav420/Task-Management-System-/assets/101393474/52eba7b8-e2e0-4fe4-9508-6867523ce7bd)
+
 
           
     - Mark a task as complete:
@@ -164,7 +166,8 @@ This is a Task Management System application. It provides the functionality to r
           http://localhost:8080/api/tasks/complete/${token}/${taskId}
           ```
 
-          <img src="https://github.com/sanjanyadav420/Task-Management-System-/blob/main/photos/markcomp.png"/>
+![mark](https://github.com/sanjanyadav420/Task-Management-System-/assets/101393474/9d3da36d-9444-4920-88be-f313d5c9f95f)
+
 
           
     - Delete a task:
@@ -172,8 +175,9 @@ This is a Task Management System application. It provides the functionality to r
           ```html
           http://localhost:8080/api/tasks/${token}/${taskId}
           ```
+![delete](https://github.com/sanjanyadav420/Task-Management-System-/assets/101393474/df700759-f7b1-4d41-b9e3-edc3dc12bd3d)
 
-          <img src="https://github.com/sanjanyadav420/Task-Management-System-/blob/main/photos/delete.png"/>
+
           
 
   - Search and Filter Endpoints:
@@ -184,7 +188,9 @@ This is a Task Management System application. It provides the functionality to r
           http://localhost:8080/api/search/title/${token}/${title}
           ```
 
-          <img src="https://github.com/sanjanyadav420/Task-Management-System-/blob/main/photos/assign.png"/>
+       ![title](https://github.com/sanjanyadav420/Task-Management-System-/assets/101393474/c720ff63-014e-4d00-affa-6e498537ee1b)
+
+
 
           
     - Search for tasks by description:
@@ -193,7 +199,7 @@ This is a Task Management System application. It provides the functionality to r
           http://localhost:8080/api/search/desc/${token}/${description}
           ```
 
-          <img src="https://github.com/sanjanyadav420/Task-Management-System-/blob/main/photos/searchdesc.png"/>
+         ![filter](https://github.com/sanjanyadav420/Task-Management-System-/assets/101393474/e7e30452-0d7e-4332-8ec7-d3a09f5413a6)
 
 
     - Filter tasks by completion status:
@@ -202,8 +208,10 @@ This is a Task Management System application. It provides the functionality to r
           http://localhost:8080/api/filter/completionstatus/${token}/${completedStatus}
           ```
 
-          <img src="https://github.com/sanjanyadav420/Task-Management-System-/blob/main/photos/comp1.png"/>
-          <img src="https://github.com/sanjanyadav420/Task-Management-System-/blob/main/photos/comp2.png"/>
+
+![mark](https://github.com/sanjanyadav420/Task-Management-System-/assets/101393474/9d3da36d-9444-4920-88be-f313d5c9f95f)
+     
+
 
 
     - Filter tasks by due date:
@@ -212,4 +220,6 @@ This is a Task Management System application. It provides the functionality to r
           http://localhost:8080/api/filter/duedate/${token}/${dueDate}
           ```
 
-          <img src="https://github.com/sanjanyadav420/Task-Management-System-/blob/main/photos/assign.png"/>
+       ![filterdate](https://github.com/sanjanyadav420/Task-Management-System-/assets/101393474/4ca3a585-5b92-46ce-80a9-43b60b606e8e)
+
+
