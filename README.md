@@ -102,7 +102,8 @@ This is a Task Management System application. It provides the functionality to r
           }
           ```
 
-          <img src="https://github.com/sanjanyadav420/Task-Management-System-/blob/main/photos/login.png"/>
+        ![login](https://github.com/sanjanyadav420/Task-Management-System-/assets/101393474/5a9bac9e-f33f-44fd-abaf-8f861c0e9160)
+
           
     -  Log out from a user account:
         - Request: POST /api/users/logout/{token}
