@@ -83,7 +83,8 @@ This is a Task Management System application. It provides the functionality to r
         ```
 
 
-        <img src="https://github.com/sanjanyadav420/Task-Management-System-/blob/main/photos/register.png"/>
+        ![register](https://github.com/sanjanyadav420/Task-Management-System-/assets/101393474/404f422f-9151-48e2-9ea4-ffdded70f8f7)
+
         
         
     -  Log in to a user account:
@@ -144,7 +145,7 @@ This is a Task Management System application. It provides the functionality to r
           }
           ```
 
-          <img src="https://github.com/sanjanyadav420/Task-Management-System-/blob/main/photos/assign.png"/>
+          "https://github.com/sanjanyadav420/Task-Management-System-/blob/main/photos/assign.png"/>
 
           
     - Assign a task to another user:
